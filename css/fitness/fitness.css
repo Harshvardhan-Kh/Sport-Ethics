@@ -81,3 +81,17 @@ header .navbar a {
     color: var(--black);
     margin: 0 16px;
 }
+
+header .navbar a:hover {
+    color: var(--orange);
+}
+
+header .icons a {
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover {
+    color: var(--orange);
+}
