@@ -135,20 +135,18 @@ header .icons a:hover {
 
 }
 
+@keyframes slideContent {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+@keyframes shoe {
+    0% {
+        transform: rotate(0deg) scale(.5);
+    }
+}
 
 .home .slide-container .slide .image .text {
     position: absolute;
@@ -514,6 +512,7 @@ header .icons a:hover {
     }
 
 }
+
 @media (max-width:768px) {
 
     #menu-bar {
@@ -541,6 +540,7 @@ header .icons a:hover {
         text-align: center;
     }
 }
+
 @media (max-width:400px) {
 
     html {
