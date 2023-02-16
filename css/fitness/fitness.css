@@ -496,3 +496,21 @@ header .icons a:hover {
 .newsletter .content form .btn {
     border-radius: 25px;
 }
+
+/* media queries  */
+
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+}
