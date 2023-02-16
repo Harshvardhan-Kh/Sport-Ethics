@@ -51,3 +51,8 @@ section {
     background: #fff;
     padding: 11px 30px;
 }
+
+.btn:hover {
+    background: var(--orange);
+    color: #fff;
+}
