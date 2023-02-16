@@ -27,10 +27,6 @@ section {
     padding: 32px 9%;
 }
 
-.box-container{
-    display: flex;
-    
-}
 .heading {
     text-align: center;
     text-transform: uppercase;
