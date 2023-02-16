@@ -448,3 +448,28 @@ header .icons a:hover {
     color: var(--orange);
     font-size: 2rem;
 }
+
+.newsletter {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.newsletter .content {
+    text-align: center;
+    border: .1rem solid #0000001a;
+    border-radius: .5rem;
+    background: #f9f9f9;
+    padding: 2rem;
+}
+
+.newsletter .content h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.newsletter .content p {
+    font-size: 1.5rem;
+    color: #666;
+    margin: 1rem auto;
+    max-width: 60rem;
+}
