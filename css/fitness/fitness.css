@@ -120,3 +120,17 @@ header .icons a:hover {
     padding: 0 9%;
     padding-top: 9rem;
 }
+
+#search-bar {
+    background-color: #333;
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    color: white;
+    border: solid 3px #f1e0df;
+}
+
+.home .slide-container .slide .content {
+    flex: 1 1 40rem;
+
+}
