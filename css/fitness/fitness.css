@@ -95,3 +95,28 @@ header .icons a {
 header .icons a:hover {
     color: var(--orange);
 }
+
+#menu-bar {
+    font-size: 2.5rem;
+    padding: .5rem 1.5rem;
+    border: .1rem solid var(--black);
+    color: var(--black);
+    border-radius: .3rem;
+    cursor: pointer;
+    display: none;
+}
+
+.home {
+    padding: 0;
+    position: relative;
+}
+
+.home .slide-container .slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 9%;
+    padding-top: 9rem;
+}
