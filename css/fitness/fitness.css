@@ -33,3 +33,8 @@ section {
     color: var(--black);
     padding: 16px;
 }
+
+.heading span {
+    text-transform: uppercase;
+    color: var(--orange);
+}
