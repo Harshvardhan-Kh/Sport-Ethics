@@ -34,7 +34,7 @@ section {
     color: var(--black);
     padding: 16px;
     position: relative;
-    top: 30px;
+    top: 40px;
 }
 
 .heading span {
@@ -255,6 +255,8 @@ header .icons a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    position: relative;
+    top: 80px;
 }
 
 .products .box-container .box {
