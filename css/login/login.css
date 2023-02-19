@@ -216,3 +216,101 @@ body{
     display: none;
   }
 }
+
+
+:root{
+  --black:black;
+  --orange:orange;
+  ;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 32px 9%;
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 64px;
+    color: var(--black);
+    padding: 16px;
+}
+
+HEAD
+.heading span{
+  text-transform: uppercase;
+  color:orange;
+}
+.btn {
+    display: inline-block;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 3px solid var(--black);
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--black);
+    cursor: pointer;
+    background: #fff;
+    padding: 11px 30px;
+}
+
+.btn:hover {
+    background: var(--orange);
+    color: #fff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+  padding: 20px 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 8px 16px #0000001a;
+}
+
+header .logo {
+  font-size: 30px;
+  color: var(--black);
+}
+
+header .navbar a {
+  font-size: 1.7rem;
+  color: var(--black);
+  margin: 0 16px;
+}
+
+header .navbar a:hover {
+  color: var(--orange);
+}
+
+header .icons a {
+  font-size: 2.5rem;
+  color: var(--black);
+  margin-left: 1.5rem;
+}
+
+header .icons a:hover {
+  color: var(--orange);
+}
