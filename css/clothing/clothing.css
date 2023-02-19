@@ -1,9 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
+<<<<<<< HEAD
+:root{
+  --black:black;
+  --orange:orange;
+  ;
+=======
 :root {
     --black: #2c2c54;
     --orange: #ff9f1a;
+>>>>>>> 3a1d023e424a9c7c47b7bc6d663d1663f5418fd3
 }
 
 * {
@@ -35,9 +42,15 @@ section {
     padding: 16px;
 }
 
+<<<<<<< HEAD
+.heading span{
+  text-transform: uppercase;
+  color:orange;
+=======
 .heading span {
     text-transform: uppercase;
     color: var(--orange);
+>>>>>>> 3a1d023e424a9c7c47b7bc6d663d1663f5418fd3
 }
 
 .btn {
