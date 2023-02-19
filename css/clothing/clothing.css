@@ -1,16 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
-<<<<<<< HEAD
-:root{
-  --black:black;
-  --orange:orange;
-  ;
-=======
+
+:root {
+    --black: black;
+    --orange: orange;
+}
+
 :root {
     --black: #2c2c54;
     --orange: #ff9f1a;
->>>>>>> 3a1d023e424a9c7c47b7bc6d663d1663f5418fd3
+
 }
 
 * {
@@ -37,20 +36,21 @@ section {
 .heading {
     text-align: center;
     text-transform: uppercase;
-    font-size: 64px;
+    font-size: 50px;
     color: var(--black);
     padding: 16px;
 }
 
-<<<<<<< HEAD
-.heading span{
-  text-transform: uppercase;
-  color:orange;
-=======
+
+.heading span {
+    text-transform: uppercase;
+    color: orange;
+}
+
 .heading span {
     text-transform: uppercase;
     color: var(--orange);
->>>>>>> 3a1d023e424a9c7c47b7bc6d663d1663f5418fd3
+
 }
 
 .btn {
@@ -566,4 +566,49 @@ header .icons a:hover {
         font-size: 3rem;
     }
 
+}
+
+.footer .box-container {
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #f9f9f9;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box {
+    flex: 1 1 20rem;
+}
+
+.footer .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer .box-container .box a {
+    color: #666;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
+
+.footer .box-container .box a:hover {
+    color: var(--orange);
+}
+
+.footer .box-container .credit {
+    text-align: center;
+    width: 100%;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    color: #999;
+}
+
+.footer .box-container .credit span {
+    color: var(--orange);
 }
