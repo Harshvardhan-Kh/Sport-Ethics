@@ -448,52 +448,6 @@ header .icons a:hover {
     font-size: 2rem;
 }
 
-.newsletter {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
-
-.newsletter .content {
-    text-align: center;
-    border: .1rem solid #0000001a;
-    border-radius: .5rem;
-    background: #f9f9f9;
-    padding: 2rem;
-}
-
-.newsletter .content h3 {
-    font-size: 2.5rem;
-    color: var(--black);
-}
-
-.newsletter .content p {
-    font-size: 1.5rem;
-    color: #666;
-    margin: 1rem auto;
-    max-width: 60rem;
-}
-
-.newsletter .content form {
-    margin: 1rem auto;
-    max-width: 50rem;
-    display: flex;
-}
-
-.newsletter .content form .box {
-    width: 100%;
-    font-size: 1.7rem;
-    text-transform: none;
-    color: #333;
-    padding: 1rem;
-    border: 2px solid var(--black);
-    border-radius: 25px;
-    margin-top: 1rem;
-    margin-right: 5px;
-}
-
-.newsletter .content form .btn {
-    border-radius: 25px;
-}
 
 /* media queries  */
 
