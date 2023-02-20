@@ -9,16 +9,37 @@
   font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+
 
 }
 
 .cont {
   height: 100px;
-  
   position: static;
   top: 0px;
   width: 100%;
 
+}
+
+.heading3{
+  position: absolute;
+  top: 100px;
+
+}
+
+.heading4{
+  position: relative;
+  top: 888px;
 }
 
 
@@ -270,6 +291,23 @@ header .icons a:hover {
   margin: 10px;
 }
 
+.head-img{
+  padding: 5px;
+  width: 100%;
+  border-radius: 20px;
+
+}
+
+.head-img2{
+  width: 100%;
+  padding: 5px;
+
+}
+
+.col1{
+  margin: 10px 60px ;
+}
+
 
 .service .box-container {
   display: flex;
@@ -308,7 +346,7 @@ header .icons a:hover {
   flex-wrap: wrap;
   gap: 24px;
   position: relative;
-  top: 80px;
+  top: 640px;
 }
 
 .products .box-container .box {
@@ -1094,18 +1132,6 @@ header .icons a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries  */
 
 @media (max-width:991px) {
@@ -1531,173 +1557,6 @@ header .icons a:hover {
   color: var(--orange);
 }
 
-.featured .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  border: .1rem solid #0000001a;
-  border-radius: .5rem;
-  background: #f9f9f9;
-  padding: 2rem;
-  align-items: center;
-  margin: 1.5rem 0;
-}
-
-.featured .row .content {
-  flex: 1 1 40rem;
-}
-
-.featured .row .image-container {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-  flex: 1 1 50rem;
-}
-
-.featured .row .image-container .small-image {
-  width: 20%;
-}
-
-.featured .row .image-container .big-image {
-  width: 60%;
-  padding: 16px;
-}
-
-.featured .row .image-container .small-image img {
-  width: 100%;
-  padding: 16px;
-  border: .1rem solid #0000004d;
-  cursor: pointer;
-}
-
-.featured .row .image-container .small-image img:hover {
-  background: #ccc;
-}
-
-.featured .row .image-container .big-image img {
-  width: 100%;
-}
-
-.featured .row .image-container .big-image img:hover {
-  transform: scale(1.05);
-}
-
-.featured .row .content h3 {
-  font-size: 2.5rem;
-  color: var(--black);
-}
-
-.featured .row .content .stars i {
-  font-size: 1.7rem;
-  color: var(--orange);
-  padding: .5rem 0;
-}
-
-.featured .row .content p {
-  font-size: 1.5rem;
-  color: #666;
-  padding: 1rem 0;
-}
-
-.featured .row .content .price {
-  font-size: 2.5rem;
-  color: var(--black);
-  font-weight: bolder;
-}
-
-.featured .row .content .price span {
-  font-size: 1.5rem;
-  color: var(--orange);
-  text-decoration: line-through;
-}
-
-.review .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.review .box-container .box {
-  flex: 1 1 30rem;
-  text-align: center;
-  border: .1rem solid #0000001a;
-  border-radius: 8px;
-  background: #f9f9f9;
-  padding: 30px;
-}
-
-.review .box-container .box img {
-  border-radius: 50%;
-  object-fit: cover;
-  height: 15rem;
-  width: 15rem;
-  margin: 1rem 0;
-}
-
-.review .box-container .box h3 {
-  font-size: 2.5rem;
-  color: var(--black);
-}
-
-.review .box-container .box p {
-  font-size: 1.6rem;
-  color: #666;
-  padding: 1rem 0;
-}
-
-.review .box-container .box .stars i {
-  color: var(--orange);
-  font-size: 2rem;
-}
-
-.newsletter {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-}
-
-.newsletter .content {
-  text-align: center;
-  border: .1rem solid #0000001a;
-  border-radius: .5rem;
-  background: #f9f9f9;
-  padding: 2rem;
-}
-
-.newsletter .content h3 {
-  font-size: 2.5rem;
-  color: var(--black);
-}
-
-.newsletter .content p {
-  font-size: 1.5rem;
-  color: #666;
-  margin: 1rem auto;
-  max-width: 60rem;
-}
-
-.newsletter .content form {
-  margin: 1rem auto;
-  max-width: 50rem;
-  display: flex;
-}
-
-.newsletter .content form .box {
-  width: 100%;
-  font-size: 1.7rem;
-  text-transform: none;
-  color: #333;
-  padding: 1rem;
-  border: 2px solid var(--black);
-  border-radius: 25px;
-  margin-top: 1rem;
-  margin-right: 5px;
-}
-
-.newsletter .content form .btn {
-  border-radius: 25px;
-}
-
-/* media queries  */
 
 @media (max-width:991px) {
 
@@ -1755,4 +1614,3 @@ header .icons a:hover {
   }
 
 }
-
