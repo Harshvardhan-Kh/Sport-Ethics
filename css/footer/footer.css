@@ -1,11 +1,14 @@
 /*Footer Start*/
 .footer{
+    
     width: 100%;
     height:auto;
     position: fixed;
     background-color: #1a1a1a;
+   ;
 }
-.contain{
+.container{
+    margin-top: 100px;
     display: flex;
     padding: 0;
     margin: 0;
