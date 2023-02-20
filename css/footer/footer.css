@@ -1,8 +1,22 @@
+<<<<<<< HEAD
 .footer .box-container {
     border: .1rem solid rgba(0, 0, 0, .1);
     border-radius: .5rem;
     background: #f9f9f9;
     padding: 2rem;
+=======
+/*Footer Start*/
+.footer{
+    
+    width: 100%;
+    height:auto;
+    position: fixed;
+    background-color: #1a1a1a;
+   ;
+}
+.container{
+    margin-top: 100px;
+>>>>>>> 22c30a62d804072809d25e79060ba9fc0946edd2
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
