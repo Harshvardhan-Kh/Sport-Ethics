@@ -9,18 +9,38 @@
   font-family: 'Nunito', sans-serif;
   margin: 0;
   padding: 0;
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all .2s linear;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
 
 
 
+}
+.slide-img{
+  width: 800px;
+  height: 400px; 
+  padding: 10px;
+  transition: 2s;
+}
+.slider{
+  width: 100%;
+  background-color: #ff9f1a;
+}
+.slides{
+  display: flex;
+
+}
+.slides input{
+display: none;
+}
+.manualslide{
+  
 }
 
 .cont {
@@ -31,13 +51,13 @@
 
 }
 
-.heading3{
+.heading3 {
   position: absolute;
   top: 100px;
 
 }
 
-.heading4{
+.heading4 {
   position: relative;
   top: 888px;
 }
@@ -287,25 +307,25 @@ header .icons a:hover {
 }
 
 .img-100 {
-  
+
   margin: 10px;
 }
 
-.head-img{
+.head-img {
   padding: 5px;
   width: 100%;
   border-radius: 20px;
 
 }
 
-.head-img2{
+.head-img2 {
   width: 100%;
   padding: 5px;
 
 }
 
-.col1{
-  margin: 10px 60px ;
+.col1 {
+  margin: 10px 60px;
 }
 
 
@@ -1437,9 +1457,9 @@ header .icons a:hover {
 }
 
 .img-100 {
-  
+
   border-radius: 10px;
-  
+
   margin: 10px;
 }
 

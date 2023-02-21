@@ -14,15 +14,216 @@ html {
     scroll-behavior: smooth;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root {
+    --black: #2c2c54;
+    --orange: #ff9f1a;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 32px 9%;
+}
+
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 64px;
+    color: var(--black);
+    padding: 16px;
+}
+
+.heading span {
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 3px solid var(--black);
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--black);
+    cursor: pointer;
+    background: #fff;
+    padding: 11px 30px;
+}
+
+.btn:hover {
+    background: var(--orange);
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    padding: 20px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 8px 16px #0000001a;
+}
+
+header .logo {
+    font-size: 30px;
+    color: var(--black);
+}
+
+header .navbar a {
+    font-size: 1.7rem;
+    color: var(--black);
+    margin: 0 16px;
+}
+
+header .navbar a:hover {
+    color: var(--orange);
+}
+
+
+
+footer {
+    width: 100%;
+    padding: 30px 0 0 20px;
+    background: #eeeeee;
+    border-color: #eeeeee;
+    
+}
+
+footer .footer_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer .footer_main .footer_tag {
+    text-align: center;
+}
+
+footer .footer_main .footer_tag h2 {
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+footer .footer_main .footer_tag p {
+    margin: 10px 0;
+}
+
+footer .footer_main .footer_tag i {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer_main .footer_tag i:hover {
+    color: #fac031;
+}
+
+footer .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer .end span {
+    color: #fac031;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fac031;
+    border-radius: 15px;
+}
+.footer .box-container {
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    background: #f9f9f9;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box {
+    flex: 1 1 20rem;
+}
+
+.footer .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer .box-container .box a {
+    color: #666;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
+
+.footer .box-container .box a:hover {
+    color: var(--orange);
+}
+
+.footer .box-container .credit {
+    text-align: center;
+    width: 100%;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    color: #999;
+}
+
+.footer .box-container .credit span {
+    color: var(--orange);
+}
+
+
+
+
+
 /* /Team/ */
 
 .team {
     width: 100%;
-    height: 90vh;
+    height: 240vh;
     background-image: url(image/bg1.jpg);
     background-size: cover;
     background-position: center;
-    background: #d7bf81;
+    background: hsl(0, 0%, 100%);
 
 }
 
