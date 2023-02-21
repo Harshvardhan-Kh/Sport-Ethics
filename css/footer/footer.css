@@ -1,4 +1,4 @@
-.footer .box-container{
+.footer .box-container {
     border: .1rem solid rgba(0, 0, 0, .1);
     border-radius: .5rem;
     background: #f9f9f9;
@@ -6,8 +6,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    margin-top: 150px;
-
 }
 
 .footer .box-container .box {
@@ -43,4 +41,4 @@
 
 .footer .box-container .credit span {
     color: var(--orange);
-} 
+}
