@@ -37,10 +37,10 @@
 
 }
 
-.heading4{
+/* .heading4{
   position: relative;
   top: 888px;
-}
+} */
 
 
 .logo {
@@ -314,7 +314,7 @@ header .icons a:hover {
 
 
 .service .box-container {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   gap: 1.5rem;
   background: #f9f9f9;
@@ -373,7 +373,7 @@ header .icons a:hover {
 }
 
 .products .box-container .box .icons {
-  display: flex;
+  /* display: flex; */
   flex-flow: column;
   position: absolute;
   top: 8px;
